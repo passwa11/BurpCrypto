@@ -2,6 +2,7 @@ name: Java CI
 
 on:
   watch:
+   workflow_dispatch:
     types: started
   push:
     branches: [ master ]
